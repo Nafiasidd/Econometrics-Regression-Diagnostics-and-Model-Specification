@@ -134,7 +134,8 @@ The R analysis uses the following packages:
 -car
 -tseries
 -sandwich
--Reproducibility
+
+## Reproducibility
 
 The R script imports the datasets using relative file paths from the project's data/ folder.
 
