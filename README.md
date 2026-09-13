@@ -39,10 +39,10 @@ Project 2/
 
 The project uses four macroeconomic datasets:
 
--CPIAUCSL.csv — Consumer Price Index data.
--UNRATE.csv — Unemployment rate data.
--FEDFUNDS.csv — Federal Funds Rate data.
--M2SL.csv — M2 Money Stock data.
+- CPIAUCSL.csv — Consumer Price Index data.
+- UNRATE.csv — Unemployment rate data.
+- FEDFUNDS.csv — Federal Funds Rate data.
+- M2SL.csv — M2 Money Stock data.
 
 The datasets were merged using their common observation date.
 
@@ -50,38 +50,38 @@ The datasets were merged using their common observation date.
 
 The analysis created the following variables:
 
--Inflation rate — calculated from changes in the Consumer Price Index.
--M2 growth rate — calculated from changes in the M2 Money Stock.
+- Inflation rate — calculated from changes in the Consumer Price Index.
+- M2 growth rate — calculated from changes in the M2 Money Stock.
 
 The final regression dataset includes:
 
--Inflation
--Unemployment rate
--Federal Funds Rate
--M2 growth rate
+- Inflation
+- Unemployment rate
+- Federal Funds Rate
+- M2 growth rate
 
 ## Analysis
 
 The project was conducted using the following steps:
 
--Import and inspect the datasets.
--Merge the datasets using the observation date.
--Create the monthly inflation rate.
--Create the monthly M2 growth rate.
--Prepare the final regression dataset.
--Estimate an OLS regression model.
--Conduct regression diagnostic tests.
--Examine residual normality.
--Apply Newey-West robust standard errors.
--Generate diagnostic plots.
+- Import and inspect the datasets.
+- Merge the datasets using the observation date.
+- Create the monthly inflation rate.
+- Create the monthly M2 growth rate.
+- Prepare the final regression dataset.
+- Estimate an OLS regression model.
+- Conduct regression diagnostic tests.
+- Examine residual normality.
+- Apply Newey-West robust standard errors.
+- Generate diagnostic plots.
 
 ## Regression Model
 
 The OLS regression model examines inflation as a function of:
 
--Unemployment rate
--Federal Funds Rate
--M2 growth rate
+- Unemployment rate
+- Federal Funds Rate
+- M2 growth rate
 
 The model was estimated using Ordinary Least Squares (OLS).
 
@@ -89,22 +89,22 @@ The model was estimated using Ordinary Least Squares (OLS).
 
 The regression model was evaluated using several diagnostic procedures.
 
--Model Specification
--Ramsey RESET test
--Heteroscedasticity
--Breusch-Pagan test
--White test
--Autocorrelation
--Durbin-Watson test
--Breusch-Godfrey test
--Multicollinearity
--Variance Inflation Factor (VIF)
--Influential Observations
--Cook's Distance
--Leverage values
--Residual Normality
--Jarque-Bera test
--Robust Inference
+- Model Specification
+- Ramsey RESET test
+- Heteroscedasticity
+- Breusch-Pagan test
+- White test
+- Autocorrelation
+- Durbin-Watson test
+- Breusch-Godfrey test
+- Multicollinearity
+- Variance Inflation Factor (VIF)
+- Influential Observations
+- Cook's Distance
+- Leverage values
+- Residual Normality
+- Jarque-Bera test
+- Robust Inference
 
 Newey-West robust standard errors were calculated to provide inference that is robust to potential heteroscedasticity and autocorrelation.
 
@@ -112,10 +112,10 @@ Newey-West robust standard errors were calculated to provide inference that is r
 
 The project includes diagnostic visualizations for:
 
--Residuals versus fitted values
--Autocorrelation Function (ACF)
--Partial Autocorrelation Function (PACF)
--Cook's Distance
+- Residuals versus fitted values
+- Autocorrelation Function (ACF)
+- Partial Autocorrelation Function (PACF)
+- Cook's Distance
 
 Additional regression and diagnostic outputs are available in the eviews_outputs/ folder.
 
@@ -128,12 +128,12 @@ EViews for regression and diagnostic outputs.
 
 The R analysis uses the following packages:
 
--dplyr
--lmtest
--skedastic
--car
--tseries
--sandwich
+- dplyr
+- lmtest
+- skedastic
+- car
+- tseries
+- sandwich
 
 ## Reproducibility
 
