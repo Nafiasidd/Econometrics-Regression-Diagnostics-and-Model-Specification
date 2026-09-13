@@ -14,12 +14,10 @@ library(sandwich)
 # DATA IMPORT
 # ================================
 
-cpi <- read.csv("C:/Users/nafia/Downloads/CPIAUCSL.csv")
-unemploymentrate <- read.csv("C:/Users/nafia/Downloads/UNRATE.csv")
-
-fedfunds <- read.csv("C:/Users/nafia/Downloads/FEDFUNDS.csv")
-
-m2 <- read.csv("C:/Users/nafia/Downloads/M2SL.csv")
+cpi <- read.csv("data/CPIAUCSL.csv")
+unemploymentrate <- read.csv("data/UNRATE.csv")
+fedfunds <- read.csv("data/FEDFUNDS.csv")
+m2 <- read.csv("data/M2SL.csv")
 str(cpi)
 str(unemploymentrate)
 str(fedfunds)
